@@ -3,6 +3,7 @@ name: Pull Request Validation
 on:
   pull_request:
     types: [opened, reopened]
+  workflow_dispatch:
 
 jobs:
   validate-branch-names:
